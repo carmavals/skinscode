@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1666905711842" clover="3.2.0">
+  <project timestamp="1666905711843" name="All files">
+    <metrics statements="21" coveredstatements="17" conditionals="16" coveredconditionals="10" methods="2" coveredmethods="2" elements="39" coveredelements="29" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="cipher.js" path="/home/carmavals/APRENDIENDO/S/skinslog/src/cipher.js">
+      <metrics statements="21" coveredstatements="17" conditionals="16" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="26" type="stmt"/>
+      <line num="8" count="26" type="cond" truecount="2" falsecount="2"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="26" type="cond" truecount="3" falsecount="1"/>
+      <line num="11" count="26" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="26" type="stmt"/>
+      <line num="25" count="26" type="cond" truecount="2" falsecount="2"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="26" type="cond" truecount="3" falsecount="1"/>
+      <line num="28" count="26" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
