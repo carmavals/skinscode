@@ -121,7 +121,7 @@ bottom: 5rem; */
     visibility: hidden;
     opacity: 0;
     overflow-x: hidden;
-
+    margin: auto;
 
     /* width: 10rem;
     transition: all 500ms ease;
@@ -171,13 +171,13 @@ bottom: 5rem; */
 
 .unido {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
 .unido .div_explicador {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -225,8 +225,7 @@ bottom: 5rem; */
     background: #409399;
     box-shadow: inset 13px 13px 18px #295e62,
         inset -13px -13px 18px #57c8d0;
-    position: relative;
-    top: 4rem;
+    
 
 }
 
@@ -254,7 +253,6 @@ bottom: 5rem; */
     display: flex;
     flex-direction: row;
     gap: 20px;
-    position: absolute;
     left: 5rem;
 
 }
@@ -271,7 +269,7 @@ bottom: 5rem; */
 
 .loquequiero {
     position: relative;
-    top: 5rem;
+    
 }
 
 .final {
@@ -281,7 +279,12 @@ bottom: 5rem; */
     top: 0;
 }
 
-@media screen and (min-width: 469px) {
+@media screen and (max-width: 400px){
+    .unido .div_explicador{
+        flex-direction: column;
+    }
+}
+/* @media screen and (min-width: 469px) {
 
     .tabla {
         color: white;
@@ -347,7 +350,7 @@ bottom: 5rem; */
     .obra {
         display: flex;
         padding: 1rem 0 0 0;
-        /* position: relative; */
+        
     }
 
     .divNaranja {
@@ -449,15 +452,9 @@ bottom: 5rem; */
         left: 8rem;
     }
 
-    /* #experimentar{
-        position: relative;
-        top: 0;
-        right: 19rem;
-        left: 20rem;
-        
-    } */
+    
     .presentacion {
         display: flex;
         padding: 2rem 0 0;
     }
-}
+} */
